@@ -1,0 +1,10 @@
+{
+    "db_fields": [
+        {"name": "id" ,"mandatory": true},
+        {"name": "publish time" , "mandatory": true},
+        {"name": "from" ,"request_string": "?מהיכן", "mandatory": true},
+        {"name": "to","request_string": "?ולאן" , "mandatory": true},
+        {"name": "departure time" ,"request_string": "?ובאיזו שעה", "mandatory": true},
+        {"name": "seats" ,"request_string": "?וכמה מקומות ישיבה", "mandatory": false}
+    ]
+}
